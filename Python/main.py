@@ -1,20 +1,10 @@
-def star_out(string: str) -> str:
-	res = ''
-	for index, char in enumerate(string):
-		if index == 0 and char != '*':
-			res += char
-		if index > 0 and char != '*' and string[index - 1] != '*':
-			res += char
-		if index > 0 and char == '*' and string[index - 1] != '*':
-			res = res[:-1]
-	return res
-
+def equal_is_not(string: str) -> bool:
+	is_count = string.count("is")
+	not_count = string.count("not")
+	return is_count == not_count
 
 if __name__ == '__main__':
-	assert star_out("ab*cd") == "ad"
-	assert star_out("ab**cd") == "ad"
-	assert star_out("sm*eilly") == "silly"
-	assert star_out('**') == ''
-	assert star_out('*') == ''
-	assert star_out('') == ''
-	assert star_out('abcde') == 'abcde'
+	assert equal_is_not("This is not") is False
+	assert equal_is_not("This is notnot") is True
+	assert equal_is_not("noisxxnotyynotxisi") is True
+	assert equal_is_not("isisnotno7Not") is False
