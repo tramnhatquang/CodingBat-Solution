@@ -58,4 +58,3 @@ My solutions to CodingBat Problems. You can find all the problems [here](https:/
 | :-----------: | :-----------: | :-----------: |  :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | 
 |1|count_evens|[here](https://github.com/tramnhatquang/CodingBat-Solutions/blob/main/Python/List-2/count_evens.py)|2|big_diff|[here](https://github.com/tramnhatquang/CodingBat-Solutions/blob/main/Python/List-2/big_diff.py)|3|centered_average|[here](https://github.com/tramnhatquang/CodingBat-Solutions/blob/main/Python/List-2/centered_average.py)
 |4|sum13|[here](https://github.com/tramnhatquang/CodingBat-Solutions/blob/main/Python/List-2/sum13.py)|5|sum67|[here](https://github.com/tramnhatquang/CodingBat-Solutions/blob/main/Python/List-2/sum67.py)|6|has22|[here](https://github.com/tramnhatquang/CodingBat-Solutions/blob/main/Python/List-2/has22.py)
-## 🔥 Java Solutions🔥
