@@ -5,7 +5,7 @@ My solutions to CodingBat Problems. You can find all the problems [here](https:/
 ### Warmup-1
 |**Number**| **Exercise** | **Solution** 
 | :-----------: | :-----------: | :-----------: | 
-| Header | Title | 
+| 1 | sleepIn | 
 
 ---
 ## 🔥 Java Solutions🔥
